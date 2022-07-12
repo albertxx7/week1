@@ -1,0 +1,366 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* reset */
+
+.mb7{
+    margin-bottom: 7px;
+}
+
+.mt16{
+    margin-top: 16px;
+}
+
+.mb24{
+    margin-bottom: 24px;
+}
+
+.mt48 {
+    margin-top: 48px;
+}
+
+.mb48 {
+    margin-bottom: 48px;
+}
+
+.mb16{
+    margin-bottom: 16px;
+}
+
+.pl16{
+    padding-left: 16px;
+}
+
+.mb64{
+    margin-bottom: 64px;
+}
+
+.pb-8{
+    padding-bottom: 8px;
+}
+
+.pb-40{
+    padding-bottom: 40px;
+}
+
+.pb-7{
+    padding-bottom: 7px;
+}
+
+.pt-24{
+    padding-top: 24px;
+}
+
+.pt-40{
+    padding-top: 40px;
+}
+
+.pb-24{
+    padding-bottom: 24px;
+}
+
+.mt-80{
+    margin-top: 80px;
+}
+
+.mt-24{
+    margin-top: 24px;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+
+.pt-16{
+    padding-top: 16px;
+}
+/* padding margin */
+
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 2px solid black;
+}
+
+.header h1 {
+    padding: 40px 0px 22px 0px;
+    font-size: 80px;
+    line-height: 1.2;
+}
+
+.container img {
+    display: block;
+    width: 324px;
+    height: 324px;
+}
+
+.profile h2 {
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+}
+
+.profile span {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #A00404;
+    font-weight: 500;
+}
+
+.profile p{
+    font-size: 24px;
+}
+
+.education h2{
+    border-bottom: 1px solid black;
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.education span{
+    font-size: 24px;
+    line-height: 1.5;
+    color: #A00404;
+    font-weight: 500;
+}
+
+.skills{
+    text-align: center;
+    background-color: #415165;
+    color: white;
+}
+
+.skills h2{
+    border-bottom: 1px solid white;
+    font-size: 32px;
+}
+
+.skills h2 span {
+    font-size: 24px;
+}
+
+.skills p{
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 24px;
+    margin-left: 490px;
+    border-left: 1px solid #96A9C4;
+}
+
+.title h2{
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+    padding-bottom:7px;
+}
+
+.title h2 span {
+    font-size: 24px;
+    color: red;
+  font-weight: 500;
+}
+
+.exper h3{
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bolder;
+    margin-left: 24px;
+}
+.exper img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 24px;
+}
+.exper p{
+    width: 642px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 24px;
+}
+.exper li{
+    border-left: 1px solid #96A9C4;
+    margin-left: 20px;
+}
+
+
+.footer{
+    background-color: #415165;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer h2{
+    font-size: 32px;
+    line-height: 1.9;
+    text-align: center;
+    border-bottom: 1px solid #FFFFFF;
+    font-weight: bolder;
+}
+.footer span{
+    font-size: 24px;
+    line-height: 1.9;
+    color: #FFFFFF;
+}
+.footer li{
+    font-size: 24px;
+    line-height: 1.9;
+}
+.footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer img{
+    width: 48px;
+    height: 48px;
+    padding-right: 24px;
+    padding-bottom: 40px;
+    vertical-align: middle; 
+}
